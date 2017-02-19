@@ -1,0 +1,57 @@
+//
+//  Qiushi-prefix.pch
+//  Qiushibaike
+//
+//  Created by 常迪 on 15/11/12.
+//  Copyright (c) 2015年 常迪. All rights reserved.
+//
+
+#ifndef Qiushibaike_Qiushi_prefix_pch
+#define Qiushibaike_Qiushi_prefix_pch
+
+
+
+#pragma mark -公共类声明
+#import "API.h"
+#import "Macro.h"
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import <MediaPlayer/MediaPlayer.h>
+
+#pragma mark -Controller类声明
+#import "BaseTableViewController.h"
+#import "ShitViewController.h"
+#import "VideoTableViewController.h"
+#import "VideoDetailsViewController.h"
+#import "WMPageController.h"
+#import "ExclusiveTableViewController.h"
+#import "LastViewController.h"
+#import "HotViewController.h"
+#import "WeekViewController.h"
+#import "PicViewController.h"
+#import "CommentsViewController.h"
+#import "HotListViewController.h"
+#import "PureWordViewController.h"
+#import "PurePicViewController.h"
+#import "DayViewController.h"
+#import "SetTableViewController.h"
+#import "FriendsViewController.h"
+
+#pragma mark -model类声明
+#import "BaseModel.h"
+#import "ExclusiveModel.h"
+#import "UserModel.h"
+#import "Votes.h"
+#import "CommentsModel.h"
+#import "SetModel.h"
+#import "FriendsModel.h"
+
+#pragma mark -view类的声明
+#import "BaseTableViewCell.h"
+#import "Pic+content.h"
+#import "CommentsViewCell.h"
+#import "SetTableViewCell.h"
+#import "FriendsCell.h"
+#endif
+
